@@ -5,22 +5,26 @@ body{
     background-color: rgba(228, 222, 222, 0.199);
     font-family: 'Poppins', sans-serif;
    
+   
 }
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
 /* -----------------------
         Top section 
         -------------------*/
+.top{
+    margin-left: 30px;
+}
 .start-journey{
     display: flex;
 }
 .journey-info,.journey-image{
-    /* width: 40%; */
-    margin-left: 5%;
+    width: 60%;
+    /* margin-left: 5%; */
     padding-left: 2%;
 }
 
@@ -34,18 +38,19 @@ main{
     font-size: 10px;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
     background-color: #E02C6D;
     margin-top: 0px;
 }
 .top-info{
     margin-bottom: 0px;
+    font-size: 40px;
 }
 .bottom-info{
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
 /* Svg section css */
@@ -66,7 +71,7 @@ main{
     grid-template-columns: repeat(7,1fr);
     justify-content: center;
     transform:scale(.7);
-    margin-left: 5%;
+    /* margin-left: 5%; */
     padding-left: 2%;
     justify-content: center;
     align-items: center;
@@ -75,7 +80,7 @@ main{
 /* photos of article  */
 
 article{
-    width: 80%;
+    /* width: 90%; */
     margin-left: 5%;
     padding-left: 2%;
 }
@@ -112,6 +117,21 @@ article{
 margin-bottom: 0px;
 margin-top: 0px;
 }
-.fas{
+.fa-star{
     color:gold;
+}
+.item-nav a{
+    text-decoration: none;
+    color: #E02C6D;
+    
+}
+article .item-heading{
+    display: flex;
+    justify-content: center;
+}
+article .item-nav{
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+    margin-right: 10px;
 }
