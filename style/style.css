@@ -1,0 +1,117 @@
+/* poppin font url  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body{
+    background-color: rgba(228, 222, 222, 0.199);
+    font-family: 'Poppins', sans-serif;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -----------------------
+        Top section 
+        -------------------*/
+.start-journey{
+    display: flex;
+}
+.journey-info,.journey-image{
+    /* width: 40%; */
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.journey-image img{
+    width: 80%;
+    border: 1px solid gainsboro;
+    border-radius: 200px;
+}
+/* top section button */
+.button a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #E02C6D;
+    margin-top: 0px;
+}
+.top-info{
+    margin-bottom: 0px;
+}
+.bottom-info{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+/* Svg section css */
+ .svg-border{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-top: .5px solid rgba(128, 128, 128, 0.418);
+     border-bottom: .5px solid rgba(128, 128, 128, 0.418);
+
+ } 
+.svg{
+    transform: scale(.7);
+}
+.svgs{width: 70%;
+    /* display: grid;
+    grid-template-columns: repeat(7,1fr); */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    transform:scale(.7);
+    margin-left: 5%;
+    padding-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* photos of article  */
+
+article{
+    width: 80%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.photo-details {
+    /* height: 270px; */
+    width: 253px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    /* box-shadow: 15px 15px 15px rgb(255, 255, 255); */
+    /* padding: 15px; */
+}
+.item-photos{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.item-image img{
+    width: 95%;
+    /* height: 80%; */
+    /* padding: 5% ; */
+    padding-bottom: 0%;
+}
+.stars{
+    font-size: 10px;
+}
+.item-info p ,.item-info span{
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.item-info h4{
+margin-bottom: 0px;
+margin-top: 0px;
+}
+.fas{
+    color:gold;
+}
